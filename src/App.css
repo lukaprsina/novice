@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, button {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(img/wood.jpg) center center fixed repeat;
+}
+
+#canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#vignette {
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none; /*non-clickable*/
+    background: rgb(255,236,110);
+    background: radial-gradient(farthest-corner at 30% -40%,rgba(255,250,109,0.762589928057554) 0%, rgba(255,195,109,0.5587529976019185) 10%, rgba(124,60,35,0.6019184652278178) 27%, rgba(54,32,18,0.7721822541966427) 46%, rgba(0,0,0,0.8681055155875299) 76%);
+
+}
+
+#papers {
+    max-width: 595px;
+    max-height: 842px;
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}
+
+.paper {
+    position: absolute;
+    max-width: 595px;
+    max-height: 842px;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 1px 3px 5px 3px rgba(0,0,0,0.1);
+    overflow: auto;
+}
+
+.paper#active {
+    transform: translate(-50%, -50%);
+}
+
+.move {
+    height: 200px;
+    max-width: 50px;
+    border-radius: 7px;;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    z-index: 2;
+}
+
+/*Different animations for desktop and mobile*/
+@media(hover: hover) {
+    .move:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+@media(pointer: coarse) {
+    .move:active {
+        background-color: rgba(255, 255, 255, 0.4);
+    }   
+}
+
+.move img {
+    width: 100%;
+    height: 100%;
+}
+
+.move img#right {
+    transform: scaleX(-1);
+}
+
+
+@media screen and (max-width: 800px) {
+    .move {
+        display: none;;
+    }
+}
