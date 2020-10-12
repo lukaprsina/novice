@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f334e30.chunk.css",
-    "main.js": "/static/js/main.f2ba60c8.chunk.js",
-    "main.js.map": "/static/js/main.f2ba60c8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.545cadd5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.545cadd5.js.map",
-    "static/css/2.7ec11378.chunk.css": "/static/css/2.7ec11378.chunk.css",
-    "static/js/2.06f17140.chunk.js": "/static/js/2.06f17140.chunk.js",
-    "static/js/2.06f17140.chunk.js.map": "/static/js/2.06f17140.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a9b1e583463ee34a48b1e1e3200f69d8.js": "/precache-manifest.a9b1e583463ee34a48b1e1e3200f69d8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7ec11378.chunk.css.map": "/static/css/2.7ec11378.chunk.css.map",
-    "static/css/main.6f334e30.chunk.css.map": "/static/css/main.6f334e30.chunk.css.map",
-    "static/js/2.06f17140.chunk.js.LICENSE.txt": "/static/js/2.06f17140.chunk.js.LICENSE.txt",
-    "static/media/arrow.svg": "/static/media/arrow.06270599.svg",
-    "static/media/App.css": "/static/media/wood.72dc2fca.jpg"
+    "main.css": "/novice/static/css/main.008ad3a7.chunk.css",
+    "main.js": "/novice/static/js/main.f05f3fde.chunk.js",
+    "main.js.map": "/novice/static/js/main.f05f3fde.chunk.js.map",
+    "runtime-main.js": "/novice/static/js/runtime-main.1258c7e9.js",
+    "runtime-main.js.map": "/novice/static/js/runtime-main.1258c7e9.js.map",
+    "static/css/2.7ec11378.chunk.css": "/novice/static/css/2.7ec11378.chunk.css",
+    "static/js/2.06f17140.chunk.js": "/novice/static/js/2.06f17140.chunk.js",
+    "static/js/2.06f17140.chunk.js.map": "/novice/static/js/2.06f17140.chunk.js.map",
+    "index.html": "/novice/index.html",
+    "precache-manifest.7c1394b1e28100d30c66d82a659fffa9.js": "/novice/precache-manifest.7c1394b1e28100d30c66d82a659fffa9.js",
+    "service-worker.js": "/novice/service-worker.js",
+    "static/css/2.7ec11378.chunk.css.map": "/novice/static/css/2.7ec11378.chunk.css.map",
+    "static/css/main.008ad3a7.chunk.css.map": "/novice/static/css/main.008ad3a7.chunk.css.map",
+    "static/js/2.06f17140.chunk.js.LICENSE.txt": "/novice/static/js/2.06f17140.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/novice/static/media/arrow.06270599.svg",
+    "static/media/App.css": "/novice/static/media/wood.72dc2fca.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.545cadd5.js",
+    "static/js/runtime-main.1258c7e9.js",
     "static/css/2.7ec11378.chunk.css",
     "static/js/2.06f17140.chunk.js",
-    "static/css/main.6f334e30.chunk.css",
-    "static/js/main.f2ba60c8.chunk.js"
+    "static/css/main.008ad3a7.chunk.css",
+    "static/js/main.f05f3fde.chunk.js"
   ]
 }
